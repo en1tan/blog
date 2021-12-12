@@ -1,0 +1,63 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Koderant Blog'
+theme = "color-your-world"
+
+[params]
+  author = "Michael Enitan"
+  authorDesc = "Koderant"
+
+  [params.style]
+    darkAccent = "#8f06a7"
+    lightAccent = "#8a06a7"
+    ignoreSystemSettings = true
+    hasIconAsFootnoteReturnLink = true
+    socialIsFlex = true
+    hideAnchors = true
+
+  [params.social.centralized]
+    github = [ "en1tan", "Koderant" ]
+    #entry = [ "username", "label (optional)" ]
+
+  [params.social.decentralized]
+    [params.social.decentralized.matrix]
+      1 = ["https://matrix.to/koderant:matrix.org", "matrix.org"]
+
+  [params.contact]
+    autoComplete = true
+    messageMinLength = 200
+
+    subject = ["Hello", "Just want to say hi"]
+
+  [params.contact.placeholder]
+    name = "Michael Enitan"
+    email = "mikkysam52@gmail.com"
+    subject = "Just saying hi"
+    message = "lorem lorem lorem"
+
+  [params.notFound]
+    title         = "Page not found"
+    description   = "This page was not found."
+    paragraph     = "Nothing to see here, buddy."
+
+  [params.search]
+
+      # Enable search form (at the post list)
+      # The default value is false
+      enable = true
+
+      # Limit search results
+      # The default value is 30
+      maxResults = 15
+
+      # Limit seach field input and pattern matching
+      minLength = 2   # Default is 3
+      maxLength = 42  # Default is 32
+
+      # Optional placeholder for search field
+      placeholder = "ie.: lorem ipsum"
+
+      # Stop word filter list
+      # Can also be set PER PAGE via front matter
+      # There's no default value
+      stopWords = [ "a", "an", "and", "in", "the", "to", "was", "were", "with" ]
