@@ -1,8 +1,8 @@
-baseURL: 'https://en1tan.github.io'
-title: Koderant Blog
+baseURL: 'https://tpriest.dev'
+title: Tech Priest Blog
 theme: PaperMod
 paginate: 10
-copyright: "[Koderant Blog](https://koderant.dev)"
+copyright: "[Tech Priest Blog](https://tpriest.dev)"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,11 +18,11 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Koderant Blog
-  description: 'Koderant Blog For All Dev Ideas'
-  keywords: [Blog, Portfolio, PaperMod, Backend]
-  author: Koderant
+  description: 'Tech Prist Blog for all weird programming topics'
+  keywords: [Blog, Portfolio, Backend]
+  author: Tech Priest
   images: ['https://avatars.githubusercontent.com/u/16443589?v=4']
-  DateFormat: 'January 2, 2006'
+  DateFormat: 'Jan 2, 2006'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -57,12 +57,12 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Koderant
+    title: Tech Priest
     subtitle: 'Backend Software Developer'
     imageUrl: 'https://avatars.githubusercontent.com/u/16443589?v=4'
     imageWidth: 500
     imageHeight: 500
-    imageTitle: koderant
+    imageTitle: tpriest
     buttons:
       - name: Posts
         url: posts
@@ -78,9 +78,9 @@ params:
     - name: github
       url: 'https://github.com/en1tan'
     - name: twitter
-      url: 'https://twitter.com/'
-    - name: instagram
-      url: 'https://stackoverflow.com'
+      url: 'https://twitter.com/dtechpriest'
+    - name: youtube
+      url: 'https://www.youtube.com/channel/UCIbM0RD_zpIML-RJ5zO6P7A'
 
   analytics:
     google:
